@@ -1,0 +1,13 @@
+/Users/macbook/Projects/FlameAPI/FlameAPI/bin/Debug/netcoreapp2.1/FlameAPI.deps.json
+/Users/macbook/Projects/FlameAPI/FlameAPI/bin/Debug/netcoreapp2.1/FlameAPI.runtimeconfig.json
+/Users/macbook/Projects/FlameAPI/FlameAPI/bin/Debug/netcoreapp2.1/FlameAPI.runtimeconfig.dev.json
+/Users/macbook/Projects/FlameAPI/FlameAPI/bin/Debug/netcoreapp2.1/FlameAPI.dll
+/Users/macbook/Projects/FlameAPI/FlameAPI/bin/Debug/netcoreapp2.1/FlameAPI.pdb
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.RazorAssemblyInfo.cache
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.RazorAssemblyInfo.cs
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.AssemblyInfoInputs.cache
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.AssemblyInfo.cs
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.RazorTargetAssemblyInfo.cache
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.dll
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.pdb
