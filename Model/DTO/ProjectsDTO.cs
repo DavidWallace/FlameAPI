@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FlameAPI.Model.Entities
 {
-    public class Projects
+    public class ProjectsDTO
     {
-        [Key]
+
         public int id { get; set; }
         public string name { get; set; }
 
@@ -14,8 +14,10 @@ namespace FlameAPI.Model.Entities
         public int projectID { get; set; }
         public int author { get; set; }
         public int sampleRate { get; set; }
+        public List<StepSequencer> stepSequencer { get; set; }
+        public List<Samples> padPerformer { get; set; }
         public DateTime timestamp { get; set; }
 
-    }
 
+    }
 }

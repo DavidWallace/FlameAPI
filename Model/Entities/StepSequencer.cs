@@ -10,5 +10,6 @@ namespace FlameAPI.Model.Entities
         public int length { get; set; }
         [Key]
         public int id { get; set; }
+        public int projID { get; set; }
     }
 }

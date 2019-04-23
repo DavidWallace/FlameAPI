@@ -47,6 +47,7 @@ namespace FlameAPI
             services.AddMvcCore().AddRazorViewEngine();
             //Configure Repositories
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IProjectRepository, ProjectRepository>();
             services.AddScoped<IPostsReporitory, PostsRepository>();
 
 

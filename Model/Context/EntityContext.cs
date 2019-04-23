@@ -35,7 +35,7 @@ namespace FlameAPI.Model.Context
             modelBuilder.Entity<Posts>().ToTable("posts");
             modelBuilder.Entity<Comments>().ToTable("comments");
             modelBuilder.Entity<Samples>().ToTable("samples");
-            modelBuilder.Entity<StepSequencer>().ToTable("stepSequence");
+            modelBuilder.Entity<StepSequencer>().ToTable("stepSequencer");
             modelBuilder.Entity<Projects>().ToTable("projects");
         }
     }

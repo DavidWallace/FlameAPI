@@ -11,3 +11,4 @@
 /Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.RazorTargetAssemblyInfo.cache
 /Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.dll
 /Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.pdb
+/Users/macbook/Projects/FlameAPI/FlameAPI/obj/Debug/netcoreapp2.1/FlameAPI.csprojAssemblyReference.cache
