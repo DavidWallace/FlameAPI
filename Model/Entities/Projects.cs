@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace FlameAPI.Model.Entities
@@ -11,12 +12,8 @@ namespace FlameAPI.Model.Entities
         public int projectID { get; set; }
         public int author { get; set; }
         public int sampleRate { get; set; }
-        public int stepSequencer { get; set; }
-        public int padPerformer { get; set; }
-
-
-        public Projects()
-        {
+        public List<StepSequencer> stepSequencer { get; set; }
+        public List<Samples> samples { get; set; }
           
     }
     }
