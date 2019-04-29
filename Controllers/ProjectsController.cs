@@ -30,6 +30,42 @@ namespace FlameAPI.Controllers
             return Ok(_projectRepository.getProject(id));
         }
 
+        [HttpGet("samplesForUser/{id}")]
+        public ActionResult<String> samplesForUser(int id)
+        {
+            return Ok(_projectRepository.samplesForUser(id).Distinct()); //Only unique values
+        }
+
+        [HttpGet("getSample/{id}")]
+        public ActionResult<Samples> getSample(int id)
+        {
+            return Ok(_projectRepository.getSample(id)); //Only unique values
+        }
+
+        [HttpGet("getStepSeqForUser/{id}")]
+        public ActionResult<StepSequencer> getStepSeqForUser(int id)
+        {
+            return Ok(_projectRepository.getStepSeq(id)); //Only unique values
+        }
+
+        [HttpPut("updateSample/{id}")]
+        public void getSample([FromBody] Samples sample)
+        {
+            _projectRepository.updateSample(sample); //Only unique values
+        }
+
+        [HttpPut("updateStepSeq/{id}")]
+        public void updateStepSeq([FromBody] StepSequencer stepSeq)
+        {
+            _projectRepository.updateStepSeqForUser(stepSeq); //Only unique values
+        }
+
+        [HttpGet()]
+        public ActionResult<ProjectsDTO> GetAll()
+        {
+            return Ok(_projectRepository.listAllProjects());
+        }
+
         // POST api/values
         [HttpPost]
         public void Post([FromBody] ProjectsDTO value)

@@ -11,5 +11,9 @@ namespace FlameAPI.Model.Entities
         [Key]
         public int id { get; set; }
         public int projID { get; set; }
+        public int? user { get; set; }
+
+
+
     }
 }

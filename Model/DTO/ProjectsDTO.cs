@@ -19,5 +19,6 @@ namespace FlameAPI.Model.Entities
         public DateTime timestamp { get; set; }
 
 
+
     }
 }

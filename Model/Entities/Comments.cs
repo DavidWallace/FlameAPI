@@ -12,5 +12,6 @@ namespace FlameAPI.Model.Entities
         public DateTime TimeStamp { get; set; }
         [Key]
         public int id { get; set; }
+
     }
 }
